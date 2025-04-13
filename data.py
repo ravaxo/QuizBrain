@@ -1,3 +1,9 @@
+"""A list of dictionaries, where each dictionary represents a quiz question.
+
+Each dictionary has two keys:
+    "text": The text of the quiz question (string).
+    "answer": The correct answer to the question ("True" or "False" as a string).
+"""
 question_data = [
 {"text": "A slug's blood is green.", "answer": "True"},
 {"text": "The loudest animal is the African Elephant.", "answer": "False"},
